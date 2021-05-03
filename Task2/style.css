@@ -1,0 +1,141 @@
+h1 {
+  text-align: center;
+}
+
+textarea {
+  margin-top: 1rem;
+  height: 10rem;
+  width: 60rem;
+}
+
+#textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+#post {
+  width: 7rem;
+  background-color: rgb(75, 75, 75);
+  border: 1px solid rgb(75, 75, 75);
+  margin-top: 1rem;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 40rem;
+}
+
+button {
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  font: inherit;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+#create-post {
+  background-color: rgb(75, 75, 75);
+  border: 1px solid rgb(75, 75, 75);
+}
+
+#post:hover,
+#create-post:hover {
+  background-color: rgb(110, 110, 110);
+  border: 1px solid rgb(110, 110, 110);
+}
+
+.delete {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.delete:hover {
+  background-color: rgb(255, 38, 0);
+  border: 1px solid rgb(255, 38, 0);
+}
+
+.modify {
+  background-color: green;
+  border: 1px solid green;
+}
+
+.modify:hover {
+  background-color: rgb(0, 148, 32);
+  border: 1px solid rgb(0, 148, 32);
+}
+
+.comment {
+  background-color: rgb(0, 189, 214);
+  border: 1px solid rgb(0, 189, 214);
+}
+
+.comment:hover {
+  background-color: rgb(0, 216, 245);
+  border: 1px solid rgb(0, 216, 245);
+}
+
+.likes {
+  display: flex;
+}
+
+.like,
+.dislike {
+  background-color: rgb(182, 182, 182);
+  border: 1px solid rgb(182, 182, 182);
+  height: 3rem;
+}
+
+.dislike {
+  margin-top: -1rem;
+}
+
+.dislikes {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+
+.comment-section {
+  margin-top: 1rem;
+}
+
+.comment-textarea {
+  width: 40rem;
+  margin-top: 0rem;
+}
+
+.post-comment {
+  background-color: rgb(75, 75, 75);
+  border: 1px solid rgb(75, 75, 75);
+  margin-top: 0.5rem;
+}
+  
+.post-comment:hover {
+  background-color: rgb(110, 110, 110);
+  border: 1px solid rgb(110, 110, 110);
+}
+
+.badge {
+  background-color: #ccc;
+  color: #252525;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.badge-selected {
+  background-color: rgb(143, 143, 143);
+}
+
+.comment-hide {
+  display: none;
+}
+
+.comment-show {
+  display: inline;
+}

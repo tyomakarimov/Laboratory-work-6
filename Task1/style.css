@@ -1,0 +1,19 @@
+.container {
+  height: 8rem;
+  background-color: darkkhaki;
+}
+
+p {
+  font-size: 10rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.smaller {
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+}
